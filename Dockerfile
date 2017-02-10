@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Arvind Rawat <support.engineer@medma.net>
+MAINTAINER Arvind Rawat < arvindr226@gmail.com >
 ENV HTTPD_PREFIX /etc/apache2
 RUN apt-get update && apt-get install -y \
     apache2 \
